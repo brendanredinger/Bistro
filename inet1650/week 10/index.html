@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Float Example</title>
+	<style>
+		body{
+			padding: 40px;
+		}
+		.photo1 img { height: 300px; margin-right: 8px; }
+		.photo2 img { height: 300px; margin-right: 8px; }
+		.photo3 img { height: 300px; margin-right: 8px; }
+		.thumbs li img { height: 80px; border-radius: 5px;}
+		h1 {
+			color: white;
+			font-size: 50px;
+			text-align: center;
+		
+		}
+		.list {
+			overflow: hidden;
+			width: 100%;
+		}
+		.list ul {
+			list-style-type: none;
+			margin: 0 auto;
+			padding: 0;
+			width: 27em;
+		}
+		.list ul li {
+			float: left;
+		}
+		.list ul li a {
+			display: block;
+			width: 100px;
+			text-align: center;
+			text-decoration: none;
+			font-weight: bold;
+			font-family: arial, sans-serif;
+			padding: 8px 3px;
+			margin: 5px;
+			color: black;
+			background-color: white;
+			border-radius: 8px;
+		}
+		.droid1 {
+			border: hidden;
+			width: auto;
+			height: 300px;
+			background-color: #1f2023;
+			color: white;
+			box-shadow: 0 0 4px 5px #3e4144;
+		}
+		.photo1 {
+			float: left;
+			
+		}
+		.desc1 {
+			float: right;
+			width: 37em;
+			padding: 10px;
+		}
+		.thumbs ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			
+		}
+		.thumbs ul li{
+			float: left;
+			padding: 20px 10px;
+		}
+		
+		
+		.droid2 {
+			border: hidden;
+			width: auto;
+			height: 300px;
+			background-color: #1f2023;
+			color: white;
+			box-shadow: 0 0 4px 5px #3e4144;
+		}
+		.photo2 {
+			float: right;
+			
+		}
+		.desc2 {
+			float: left;
+			width: 37em;
+			padding: 10px;
+			}
+		.droid3 {
+			border: hidden;
+			width: auto;
+			height: 300px;
+			background-color: #1f2023;
+			color: white;
+			box-shadow: 0 0 4px 5px #3e4144;
+		}
+		.photo3 {
+			float: left;
+			
+		}
+		.desc3 {
+			float: right;
+			width: 37em;
+			padding: 10px;
+		}
+	</style>
+	
+</head>
+<body background="star-space-tile.jpg">
+	<header>
+		<nav>
+			<h1>Star Wars Astromech Droids</h1>
+			<nav class=list>
+			<ul>
+				<li><a href="#r2-d2">R2-D2</a></li>
+				<li><a href="#bb-8">BB-8</a></li>
+				<li><a href="#r5-d4">R5-D4</a></li>
+			</ul>
+			</nav>
+		</nav>
+	</header>
+	<br>
+	
+	
+	<section class="body">
+		<div class="droid1">
+			<div class="photo1"><img src="r2-d2.jpg" /></div>
+			<div class="desc1">
+				<h2>R2-D2</h2>
+				Anakin Skywalker and Luke Skywalker in turn, showing great bravery in rescuing 
+				his masters and their friends from many perils. A skilled starship mechanic and 
+				fighter pilot's assistant, he formed an unlikely but enduring friendship with the
+				fussy protocol droid C-3PO.
+				<div class="thumbs">
+					<ul>
+						<li><img src="r2-d2-01.jpg"><div class="caption">Photo 1</div></li>
+						<li><img src="r2-d2-02.jpg"><div class="caption">Photo 2</div></li>
+						<li><img src="r2-d2-03.jpg"><div class="caption">Photo 3</div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="droid2">
+			<div class="photo2"><img src="bb-8.jpg" /></div>
+			<div class="desc2">
+				<h2>BB-8</h2>
+				A skittish but loyal astromech, BB-8 accompanied Poe Dameron on many missions for the Resistance,
+				 helping keep his X-wing in working order. When Poe’s mission to Jakku ended with 
+				his capture by the First Order, BB-8 fled into the desert with a vital clue to the location
+				 of Jedi Master Luke Skywalker.
+				<div class="thumbs">
+					<ul>
+						<li><img src="bb-8-01.jpg"><div class="caption">Photo 1</div></li>
+						<li><img src="bb-8-02.jpg"><div class="caption">Photo 2</div></li>
+						<li><img src="bb-8-03.jpg"><div class="caption">Photo 3</div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="droid3">
+			<div class="photo3"><img src="r5-d4.jpg" /></div>
+			<div class="desc3">
+				<h2>R5-D4</h2>
+				A red astromech droid, R5-D4 thought he'd found a home when the Jawas sold him to Owen Lars, 
+				along with the protocol droid C-3PO. But R5's motivator blew as he rolled away from the sandcrawler, 
+				forcing the Jawas to take him back in exchange for R2-D2.
+				<div class="thumbs">
+					<ul>
+						<li><img src="r5-d4-01.jpg"><div class="caption">Photo 1</div></li>
+						<li><img src="r5-d4-02.jpg"><div class="caption">Photo 2</div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
