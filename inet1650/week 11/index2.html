@@ -1,0 +1,92 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+	.container {
+  position: relative;
+  border: solid;
+  border-color: #6fcbe8;
+  border-width: 3px;
+  
+}
+nav {
+  float: right;
+  width: 200px;
+  border: solid;
+  border-color: #b625c6;
+  color: #b625c6;
+}
+section {
+  margin-right: 200px;
+  border: solid;
+  border-color: #cec108;
+  
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+  border: solid;
+  border-color: #29a81a;
+  text-align: center;
+}
+header{
+	position: static;
+	top: 0;
+	left: 0px;
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	background-color: #000000;
+	border: solid;
+	border-color: #a81a1a;
+	color: #fff;
+}
+body {
+  margin-bottom: 120px;
+}
+</style>
+</head>
+
+<body>
+	<header>
+	
+	<h1>This is the header.</h1>
+</header>
+	<div class="container">
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Taco Menu</li>
+			<li>Draft List</li>
+			<li>Hours</li>
+			<li>Directions</li>
+			<li>Contact</li>
+		</ul>
+	</nav>
+	<section>
+		<p>The margin-left style for sections makes sure there is room for the nav.
+		Otherwise the absolute and static elements would overlap</p>
+	</section>
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
+		dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.
+		Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum
+		augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+		convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed
+		ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+		Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum.
+		Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+	</section>
+	<section>
+		<p>Notice what happens when you resize your browser. It works nicely!</p>
+	</section>
+</div>
+
+<footer>If you use a fixed header or footer, make sure there is room for it! I put a margin-bottom on
+the body.</footer>
+</body>
+</html>
