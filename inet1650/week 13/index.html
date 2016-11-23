@@ -39,14 +39,22 @@
 		th { background-color: #fff; }
 		tbody tr:nth-child(even) { background-color: #FFF2D3; }
 		td { text-align: center; }
-
 		
-		@media only screen and (max-width: 500px) and (min-width: 900px) {
-		.athlete {display: inline-block;
-		width: 45%;}
-		}
 
-	
+
+		/* Your CSS RULES Below this line */
+@media screen only and (min-width: 501px) and (max-width: 900px) {
+	.team {	width: 45%;}
+	table {font-size: small;}
+	tbody tr:first-child {font-weight: bold;}
+}
+@media screen only and (max-width: 500px){
+	.team {width: 95%}
+	table tr > *{display: block;}
+    table tr {display: table-cell;}
+}
+
+		/* Your CSS RULES Above this line */
 
 	</style>
 </head>
