@@ -43,16 +43,20 @@
 
 
 		/* Your CSS RULES Below this line */
-@media screen only and (min-width: 501px) and (max-width: 900px) {
-	.team {	width: 45%;}
+@media screen and (min-width: 501px) and (max-width: 900px){
+	.team .athlete {width: 45%;}
+	.team .athlete img {height: 40%;}
 	table {font-size: small;}
-	tbody tr:first-child {font-weight: bold;}
+	td:first-child {font-weight: bold;}
+	td:nth-child(2) {font-weight: bold}
 }
-@media screen only and (max-width: 500px){
-	.team {width: 95%}
-	table tr > *{display: block;}
-    table tr {display: table-cell;}
-}
+
+@media screen and (max-width: 500px){
+    .team .athlete {width: 95%}
+  .team .athlete img { height: 100%; }
+    tr, td { display: block;  width: 100%;}
+  td:nth-child(4) { font-weight: bold; }
+}﻿﻿﻿
 
 		/* Your CSS RULES Above this line */
 
